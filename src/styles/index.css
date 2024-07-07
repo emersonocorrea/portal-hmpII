@@ -38,6 +38,7 @@ body{
     margin: 0 auto;
     margin-top: 50px;   
     max-width: 980px;
+    
 }
 
 .main h1{    
@@ -54,19 +55,28 @@ body{
     justify-content: center;
 }
 
-.shortcuts__list{
+.shortcuts__list{       
     display: flex;
     flex-wrap: wrap;
     justify-content: center;   
-    gap: 30px;
+    gap: 30px;  
+    
 }
 
 .shortcuts__list li {    
     min-width: 200px;
+    min-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.shortcuts__list li:hover{
+    border: 1px solid lightgray;
+    border-radius: 10px;
     
 }
 

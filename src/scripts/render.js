@@ -10,7 +10,7 @@ export const render = (arr) => {
         const logo = document.createElement('img')
 
         li.classList.add('list__item')
-        logo.classList.add('list__img')
+        logo.classList.add('list__img')        
 
         logo.src = item.img
         logo.alt = item.name

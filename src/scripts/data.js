@@ -23,4 +23,16 @@ export const data = [
         img: "../src/assets/img/ew.png",
         link: "https://helpdeskew.suport.systems/#/login"
     },
+    {
+        id: 5,
+        name: "selbetti",
+        img: "../src/assets/img/selbetti.png",
+        link: "https://www.selbetti.com.br/canal_cliente_novo/login"
+    },
+    {
+        id: 6,
+        name: "pixeon",
+        img: "../src/assets/img/pixeon.png",
+        link: "https://portalcliente.pixeon.com/servicedesk/customer/user/login?destination=portal%2F32"
+    },
 ]

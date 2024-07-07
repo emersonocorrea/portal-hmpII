@@ -23,6 +23,6 @@ export const render = (arr) => {
         list.appendChild(li)
     });
 
-    console.log(arr)
+    
 }
 

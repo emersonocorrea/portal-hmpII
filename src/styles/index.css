@@ -27,6 +27,8 @@ body{
 
 .header__logo--text{
     text-transform: uppercase;
+    color: #135487;
+    font-weight: 700;
 }
 
 .header__logo--text strong{
@@ -35,19 +37,22 @@ body{
 }
 
 .main{
+    min-height: 100vh;
     margin: 0 auto;
     margin-top: 50px;   
     max-width: 980px;
+    margin-bottom: 50px;    
+    padding: 40px;
     
 }
 
 .main h1{    
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 50px;
-    color: rgb(1, 1, 68);
+    margin-bottom: 40px;
+    color: #135487;
 }
 
 .shortcuts__container{
@@ -59,7 +64,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;   
-    gap: 30px;  
+    gap: 30px;
+    
     
 }
 
@@ -86,3 +92,9 @@ body{
     border-radius: 10px;    
 }
 
+
+
+.footer{
+    height: 40px;
+    background: #135487;
+}

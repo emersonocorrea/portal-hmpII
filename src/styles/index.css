@@ -77,11 +77,13 @@ body{
     align-items: center;
     padding: 5px;
     border-radius: 10px;
+    border: 1px solid transparent;
     
 }
 
 .shortcuts__list li:hover{
-    border: 1px solid lightgray;
+    border: 1px solid #135487;
+    transition: 0.5s;
     border-radius: 10px;
     
 }

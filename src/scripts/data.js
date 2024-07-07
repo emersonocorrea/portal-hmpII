@@ -9,7 +9,7 @@ export const data = [
         id: 2,
         name: "GLPI",
         img: "../src/assets/img/glpi.png",
-        link: "#"
+        link: "http://192.168.255.240/glpi/plugins/formcreator/front/formlist.php"
     },
     {
         id: 3,

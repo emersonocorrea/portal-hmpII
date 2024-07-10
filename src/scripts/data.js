@@ -29,16 +29,16 @@ export const data = [
     },
     {
         id: 5,
-        name: "selbetti",
-        img: "../src/assets/img/selbetti.png",
-        link: "https://www.selbetti.com.br/canal_cliente_novo/login",
-        description: ""
+        name: "Eng. Clinica",
+        img: "../src/assets/img/ec.jpg",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfD9Vy0mmoNcoNuxYduvgjOmgMZ9rpiaVRuDFoeHFGlXmLhFA/viewform",
+        description: "OS para Engenharia Clínica"
     },
     {
         id: 6,
-        name: "pixeon",
-        img: "../src/assets/img/pixeon.png",
-        link: "https://portalcliente.pixeon.com/servicedesk/customer/user/login?destination=portal%2F32",
-        description: ""
+        name: "Ramal",
+        img: "../src/assets/img/ramais.png",
+        link: "#",
+        description: "Ramais"
     },
 ]

@@ -70,11 +70,12 @@ body{
 }
 
 .shortcuts__list li {    
-    min-width: 200px;
+    min-width: 250px;
     min-height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;    
     padding: 5px;
     border-radius: 10px;
     border: 1px solid transparent;
@@ -89,8 +90,8 @@ body{
 }
 
 .list__img{
-    width: 150px;
-    height: 56px;
+    width: 200px;
+    height: 80px;
     border-radius: 10px;    
 }
 
@@ -99,4 +100,17 @@ body{
 .footer{
     height: 40px;
     background: #135487;
+}
+
+
+.description__container{
+    margin-top: 8px;
+}
+
+.description__container p{
+    font-weight: bold;
+    text-align: center;
+    color: #135487;
+    font-size: 12px;
+    
 }

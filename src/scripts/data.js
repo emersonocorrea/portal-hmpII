@@ -41,4 +41,26 @@ export const data = [
         link: "#",
         description: "Ramais"
     },
+    {
+        id: 7,
+        name: "Holerite",
+        img: "../src/assets/img/LOGO_2024.png",
+        link: "https://holerite.spdmpais.org.br/login.aspx",
+        description: "Holerite e cursos"
+    },
+    {
+        id: 8,
+        name: "Email",
+        img: "../src/assets/img/email.png",
+        link: "https://webmail.spdm-pais.org.br/",
+        description: "E-mail"
+    },
+    {
+        id: 9,
+        name: "epimed",
+        img: "../src/assets/img/epimed.png",
+        link: "https://sso.epimedmonitor.com/Account/Login?returnUrl=monitor",
+        description: "Epimed Monitor"
+    },
+    
 ]

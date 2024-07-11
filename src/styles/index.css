@@ -8,7 +8,12 @@ body{
     height: 100px;
     width: 100vw;   
     padding: 20px;
-    box-shadow: 0px 1px 5px 0px #888888;   
+    box-shadow: 0px 1px 5px 0px #888888;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #fff;   
 
 }
 
@@ -39,20 +44,32 @@ body{
 .main{
     min-height: 100vh;
     margin: 0 auto;
-    margin-top: 50px;   
+    margin-top: 150px;   
     max-width: 980px;
     margin-bottom: 50px;    
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
 .main h1{    
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 40px;
-    color: #135487;
+    margin-bottom: 50px;
+    background-color: #135487;
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+
+    @media (min-width: 768px){
+        font-size: 2rem;
+    }
+
 }
 
 .shortcuts__container{
@@ -63,9 +80,8 @@ body{
 .shortcuts__list{       
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;   
-    gap: 30px;
-    
+    justify-content: space-between;       
+    gap: 30px;    
     
 }
 
@@ -79,6 +95,12 @@ body{
     padding: 5px;
     border-radius: 10px;
     border: 1px solid transparent;
+    flex: 1;
+
+    @media (min-width: 768px){
+        flex: none;
+        
+    }    
     
 }
 
